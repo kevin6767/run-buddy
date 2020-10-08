@@ -108,7 +108,7 @@ section {
   color: #024e76;
   border: solid 3px #024e76;
   width: 40%;
-  margin: 3.5%;
+  margin: 3.;
 }
 
 .hero-cta {
@@ -159,9 +159,6 @@ section {
 
 /* HERO STYLES END */
 /* What we do */
-.intro {
-  text-align: center;
-}
 
 .intro p {
   line-height: 1.7;
@@ -169,12 +166,12 @@ section {
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* What we do ends */
 /* What you do */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -204,9 +201,11 @@ section {
 
 /* What you do ends */
 /* Meet the Trainers */
-.trainers {
-  text-align: center;
+.flex-row {
+  display: flex;
 }
+
+.trainers {}
 
 .trainer {
   width: 900px;
@@ -255,15 +254,16 @@ section {
 /* Reach Out */
 .section-title {
   font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
   border-bottom: 3px solid;
-  margin-bottom: 35px;
   color: #024e76;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .contact {
-  text-align: center;
+
   background: #024e76;
 }
 
